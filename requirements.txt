@@ -1,0 +1,15 @@
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.40.0
+datasets>=2.18.0
+peft>=0.10.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+evaluate>=0.4.1
+seqeval>=1.2.2
+jiwer>=3.0.3
+soundfile>=0.12.1
+librosa>=0.10.1
+pyttsx3>=2.90
+gradio>=4.20.0
+pydantic>=2.5.0

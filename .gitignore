@@ -1,2 +1,23 @@
+# Python bytecode & environments
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Model checkpoints & audio caches
+models/
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.wav
+*.mp3
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db

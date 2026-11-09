@@ -24,15 +24,15 @@ class IntentSlotResult(BaseModel):
     """Output contract from Pillar II (Waqar) to Pillar III"""
     intent: str  # "DICTATION", "EDIT_ACTION", "NAVIGATION"
     action_type: Optional[str] = None  # "INSERT", "DELETE", "SUBSTITUTE", "READBACK"
-    target_text: Optional[str] = None
-    replacement_text: Optional[str] = None
+    target_text: Optional[str] = None   # Target span to be altered or erased
+    replacement_text: Optional[str] = None  # New span to be inserted
     confidence: float = Field(ge=0.0, le=1.0)
-    is_collision_risk: bool = False
+    is_collision_risk: bool = False  # Flags dictation containing trigger words like 'delete'
 
 
 class SystemResponse(BaseModel):
     """Output contract from Pillar III (Saad) to User Interface"""
     buffer_state: str
     spoken_feedback: str
-    tts_rate: int  # 200 for normal, 140 for uncertain readback
+    tts_rate: int  # e.g., 200 for normal, 140 for uncertain readback
     flagged_low_confidence_tokens: List[str]
