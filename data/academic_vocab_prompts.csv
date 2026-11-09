@@ -1,0 +1,121 @@
+id,domain,split,text
+1,physics,train,the capacitance of a parallel plate capacitor depends on plate area and separation
+2,physics,train,the wavelength of a particle is inversely proportional to its momentum
+3,physics,train,kinetic energy equals half mass times velocity squared
+4,physics,train,the second law of thermodynamics states that entropy never decreases in a closed system
+5,physics,train,the bernoulli equation relates pressure velocity and height in a flowing fluid
+6,physics,train,the photoelectric effect demonstrates the particle nature of light
+7,physics,train,refraction occurs when a wave changes speed at the boundary between two media
+8,physics,train,the schrodinger equation describes wave function evolution over time
+9,physics,train,a photon carries energy proportional to its frequency
+10,physics,train,the lorentz force acts on a charged particle moving through a magnetic field
+11,physics,train,the coefficient of friction depends on the surfaces in contact
+12,physics,train,a superconductor expels magnetic flux below its critical temperature
+13,physics,train,the heisenberg uncertainty principle limits simultaneous knowledge of position and momentum
+14,physics,train,the eigenvalue of the hamiltonian operator determines the energy of the quantum state
+15,physics,train,entropy measures the degree of thermal disorder within an isolated system
+16,physics,train,polarization restricts the oscillation of a light wave to a single plane
+17,physics,test,centripetal acceleration points toward the center of a circular path
+18,physics,test,angular momentum is conserved when no external torque acts on the system
+19,physics,test,nuclear fission releases energy by splitting a heavy nucleus into lighter fragments
+20,physics,test,resonance occurs when the driving frequency matches the natural frequency of a system
+21,physics,test,a fermion obeys the pauli exclusion principle while a boson does not
+22,physics,test,the doppler shift changes the observed frequency of a moving wave source
+23,physics,test,an inductor opposes changes in current through electromagnetic induction
+24,physics,test,gauss law relates electric flux through a closed surface to the enclosed charge
+25,biology,train,the krebs cycle oxidizes acetyl coenzyme A to produce electron carriers
+26,biology,train,antibodies bind to specific antigens to neutralize pathogens
+27,biology,train,allosteric regulation changes enzyme activity through binding at a distant site
+28,biology,train,chloroplasts contain thylakoid membranes where the light reactions take place
+29,biology,train,ribosomes translate messenger RNA into polypeptide chains during translation
+30,biology,train,stem cells can differentiate into specialized cell types
+31,biology,train,transcription copies a gene from deoxyribonucleic acid into messenger RNA
+32,biology,train,the hippocampus plays a central role in the consolidation of memory
+33,biology,train,meiosis produces four genetically distinct haploid gametes
+34,biology,train,the cerebellum coordinates balance and voluntary movement
+35,biology,train,homeostasis maintains a stable internal environment despite external changes
+36,biology,train,the nephron filters blood and produces urine in the kidney
+37,biology,train,enzymes accelerate biochemical reactions by lowering the activation energy
+38,biology,train,mitochondria generate adenosine triphosphate through oxidative phosphorylation
+39,biology,train,natural selection favors heritable traits that increase reproductive success
+40,biology,train,symbiosis describes a close long term interaction between two different species
+41,biology,test,the endoplasmic reticulum folds proteins and synthesizes lipids
+42,biology,test,peptide bonds link amino acids together to form proteins
+43,biology,test,dna polymerase synthesizes a new strand by adding nucleotides to the three prime end
+44,biology,test,the phospholipid bilayer regulates the diffusion of molecules across the membrane
+45,biology,test,osmosis moves water across a semipermeable membrane toward higher solute concentration
+46,biology,test,photosynthesis converts carbon dioxide and water into glucose using chlorophyll
+47,biology,test,the sodium potassium pump maintains the electrochemical gradient across the cell membrane
+48,biology,test,mutations in the genome can be silent missense or nonsense
+49,cs,train,a binary heap supports insertion and extraction of the minimum in logarithmic time
+50,cs,train,polymorphism allows objects of different classes to respond to the same method call
+51,cs,train,overfitting happens when a model memorizes noise in the training data
+52,cs,train,a hash table resolves collisions using chaining or open addressing
+53,cs,train,a foreign key enforces referential integrity between two tables
+54,cs,train,backpropagation computes gradients of the loss with respect to network weights
+55,cs,train,a convolutional neural network applies learnable filters to extract spatial features
+56,cs,train,a red black tree preserves balance through rotations after every insertion
+57,cs,train,the attention mechanism lets a transformer weigh the relevance of every input token
+58,cs,train,a deadlock occurs when processes wait indefinitely for each other to release resources
+59,cs,train,virtual memory maps logical addresses to physical addresses using a page table
+60,cs,train,the gradient descent algorithm updates parameters in the direction of steepest decrease
+61,cs,train,dynamic programming stores subproblem solutions to avoid redundant computation
+62,cs,train,a mutex prevents concurrent threads from accessing a shared resource simultaneously
+63,cs,train,supervised learning requires labeled datasets for minimizing empirical loss
+64,cs,train,the halting problem is undecidable for a general turing machine
+65,cs,test,the quicksort average case time complexity evaluates to big O of n log n
+66,cs,test,tokenization splits raw text into smaller units for language processing
+67,cs,test,dijkstra algorithm finds the shortest path in a graph with non negative weights
+68,cs,test,the transmission control protocol guarantees reliable ordered delivery of packets
+69,cs,test,normalization reduces redundancy in a relational database schema
+70,cs,test,recursion solves a problem by reducing it to smaller instances of itself
+71,cs,test,asymmetric encryption uses a public key and a private key
+72,cs,test,a compiler translates source code into machine instructions
+73,math,train,the logarithm is the inverse of the exponential function
+74,math,train,a sequence is convergent if its limit exists and is finite
+75,math,train,the variance of the sum of independent random variables is the sum of their variances
+76,math,train,a vector space is closed under addition and scalar multiplication
+77,math,train,the eigenvectors of a symmetric matrix are mutually orthogonal
+78,math,train,a bijection is a function that is both injective and surjective
+79,math,train,a null hypothesis is rejected when the p value falls below the significance level
+80,math,train,a permutation counts ordered arrangements while a combination ignores order
+81,math,train,a prime number has exactly two positive divisors
+82,math,train,the pythagorean theorem relates the sides of a right angled triangle
+83,math,train,the taylor series approximates a smooth function using its derivatives at a point
+84,math,train,the integral of the exponential function is the exponential function plus a constant
+85,math,train,a geometric series converges when the common ratio has magnitude less than one
+86,math,train,the standard deviation measures the dispersion of a set of values around the mean
+87,math,train,the rank of a matrix equals the number of linearly independent rows
+88,math,train,bayes theorem updates the probability of a hypothesis given new evidence
+89,math,test,a function is continuous if small changes in input cause small changes in output
+90,math,test,the central limit theorem states that sample means approach a normal distribution
+91,math,test,the laplace transform converts a differential equation into an algebraic equation
+92,math,test,the fundamental theorem of calculus links differentiation and integration
+93,math,test,the gradient of a scalar field points in the direction of greatest increase
+94,math,test,a matrix is invertible if and only if its determinant is nonzero
+95,math,test,a differential equation relates a function to its derivatives
+96,math,test,the determinant of an orthogonal matrix is either positive one or negative one
+97,chemistry,train,an ionic bond results from the electrostatic attraction between cations and anions
+98,chemistry,train,a polymer is formed by repeated linking of monomer units
+99,chemistry,train,a nucleophile donates an electron pair to form a new covalent bond
+100,chemistry,train,the rate law expresses reaction speed as a function of reactant concentration
+101,chemistry,train,the avogadro constant defines the number of particles in one mole
+102,chemistry,train,covalent bonds form when atoms share pairs of electrons
+103,chemistry,train,the stoichiometric ratio determines the limiting reagent in a reaction
+104,chemistry,train,oxidation involves the loss of electrons while reduction involves the gain of electrons
+105,chemistry,train,le chatelier principle predicts how an equilibrium shifts under applied stress
+106,chemistry,train,intermolecular hydrogen bonding raises the boiling point of water
+107,chemistry,train,electrophilic aromatic substitution replaces a hydrogen atom on a benzene ring
+108,chemistry,train,the gibbs free energy predicts the spontaneity of a chemical process
+109,chemistry,train,the periodic table arranges elements by increasing atomic number
+110,chemistry,train,a buffer solution resists changes in ph when small amounts of acid are added
+111,chemistry,train,valence electrons determine the chemical reactivity of an element
+112,chemistry,train,the ph of a solution is the negative logarithm of the hydrogen ion concentration
+113,chemistry,test,isomers share the same molecular formula but differ in structural arrangement
+114,chemistry,test,hybridization of orbitals explains the tetrahedral geometry of methane
+115,chemistry,test,electronegativity increases across a period and decreases down a group
+116,chemistry,test,a titration determines the concentration of an unknown solution using a standard reagent
+117,chemistry,test,an exothermic reaction releases heat to the surroundings
+118,chemistry,test,catalysts lower the activation energy without being consumed in the reaction
+119,chemistry,test,chromatography separates the components of a mixture based on their affinity
+120,chemistry,test,enthalpy change measures the heat absorbed or released at constant pressure
