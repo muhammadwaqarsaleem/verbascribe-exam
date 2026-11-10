@@ -1,0 +1,7 @@
+{
+  "overall": 0.0429,
+  "gb_m": 0.0487,
+  "in_f": 0.0394,
+  "in_m": 0.0406,
+  "note": "un-tuned distil-small.en on TTS train audio, 240 clips, normalized"
+}
