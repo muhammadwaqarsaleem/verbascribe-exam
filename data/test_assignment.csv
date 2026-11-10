@@ -1,0 +1,41 @@
+id,speaker,domain,text,filename
+17,ali,physics,centripetal acceleration points toward the center of a circular path,17_ali.wav
+20,ali,physics,resonance occurs when the driving frequency matches the natural frequency of a system,20_ali.wav
+23,ali,physics,an inductor opposes changes in current through electromagnetic induction,23_ali.wav
+42,ali,biology,peptide bonds link amino acids together to form proteins,42_ali.wav
+45,ali,biology,osmosis moves water across a semipermeable membrane toward higher solute concentration,45_ali.wav
+48,ali,biology,mutations in the genome can be silent missense or nonsense,48_ali.wav
+67,ali,cs,dijkstra algorithm finds the shortest path in a graph with non negative weights,67_ali.wav
+70,ali,cs,recursion solves a problem by reducing it to smaller instances of itself,70_ali.wav
+89,ali,math,a function is continuous if small changes in input cause small changes in output,89_ali.wav
+92,ali,math,the fundamental theorem of calculus links differentiation and integration,92_ali.wav
+95,ali,math,a differential equation relates a function to its derivatives,95_ali.wav
+114,ali,chemistry,hybridization of orbitals explains the tetrahedral geometry of methane,114_ali.wav
+117,ali,chemistry,an exothermic reaction releases heat to the surroundings,117_ali.wav
+120,ali,chemistry,enthalpy change measures the heat absorbed or released at constant pressure,120_ali.wav
+18,waqar,physics,angular momentum is conserved when no external torque acts on the system,18_waqar.wav
+21,waqar,physics,a fermion obeys the pauli exclusion principle while a boson does not,21_waqar.wav
+24,waqar,physics,gauss law relates electric flux through a closed surface to the enclosed charge,24_waqar.wav
+43,waqar,biology,dna polymerase synthesizes a new strand by adding nucleotides to the three prime end,43_waqar.wav
+46,waqar,biology,photosynthesis converts carbon dioxide and water into glucose using chlorophyll,46_waqar.wav
+65,waqar,cs,the quicksort average case time complexity evaluates to big O of n log n,65_waqar.wav
+68,waqar,cs,the transmission control protocol guarantees reliable ordered delivery of packets,68_waqar.wav
+71,waqar,cs,asymmetric encryption uses a public key and a private key,71_waqar.wav
+90,waqar,math,the central limit theorem states that sample means approach a normal distribution,90_waqar.wav
+93,waqar,math,the gradient of a scalar field points in the direction of greatest increase,93_waqar.wav
+96,waqar,math,the determinant of an orthogonal matrix is either positive one or negative one,96_waqar.wav
+115,waqar,chemistry,electronegativity increases across a period and decreases down a group,115_waqar.wav
+118,waqar,chemistry,catalysts lower the activation energy without being consumed in the reaction,118_waqar.wav
+19,saad,physics,nuclear fission releases energy by splitting a heavy nucleus into lighter fragments,19_saad.wav
+22,saad,physics,the doppler shift changes the observed frequency of a moving wave source,22_saad.wav
+41,saad,biology,the endoplasmic reticulum folds proteins and synthesizes lipids,41_saad.wav
+44,saad,biology,the phospholipid bilayer regulates the diffusion of molecules across the membrane,44_saad.wav
+47,saad,biology,the sodium potassium pump maintains the electrochemical gradient across the cell membrane,47_saad.wav
+66,saad,cs,tokenization splits raw text into smaller units for language processing,66_saad.wav
+69,saad,cs,normalization reduces redundancy in a relational database schema,69_saad.wav
+72,saad,cs,a compiler translates source code into machine instructions,72_saad.wav
+91,saad,math,the laplace transform converts a differential equation into an algebraic equation,91_saad.wav
+94,saad,math,a matrix is invertible if and only if its determinant is nonzero,94_saad.wav
+113,saad,chemistry,isomers share the same molecular formula but differ in structural arrangement,113_saad.wav
+116,saad,chemistry,a titration determines the concentration of an unknown solution using a standard reagent,116_saad.wav
+119,saad,chemistry,chromatography separates the components of a mixture based on their affinity,119_saad.wav
