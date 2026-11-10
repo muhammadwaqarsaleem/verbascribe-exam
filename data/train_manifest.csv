@@ -1,0 +1,241 @@
+path,text,domain,voice
+data/audio_train/1_in_f.wav,the capacitance of a parallel plate capacitor depends on plate area and separation,physics,in_f
+data/audio_train/1_in_m.wav,the capacitance of a parallel plate capacitor depends on plate area and separation,physics,in_m
+data/audio_train/1_gb_m.wav,the capacitance of a parallel plate capacitor depends on plate area and separation,physics,gb_m
+data/audio_train/2_in_f.wav,the wavelength of a particle is inversely proportional to its momentum,physics,in_f
+data/audio_train/2_in_m.wav,the wavelength of a particle is inversely proportional to its momentum,physics,in_m
+data/audio_train/2_gb_m.wav,the wavelength of a particle is inversely proportional to its momentum,physics,gb_m
+data/audio_train/3_in_f.wav,kinetic energy equals half mass times velocity squared,physics,in_f
+data/audio_train/3_in_m.wav,kinetic energy equals half mass times velocity squared,physics,in_m
+data/audio_train/3_gb_m.wav,kinetic energy equals half mass times velocity squared,physics,gb_m
+data/audio_train/4_in_f.wav,the second law of thermodynamics states that entropy never decreases in a closed system,physics,in_f
+data/audio_train/4_in_m.wav,the second law of thermodynamics states that entropy never decreases in a closed system,physics,in_m
+data/audio_train/4_gb_m.wav,the second law of thermodynamics states that entropy never decreases in a closed system,physics,gb_m
+data/audio_train/5_in_f.wav,the bernoulli equation relates pressure velocity and height in a flowing fluid,physics,in_f
+data/audio_train/5_in_m.wav,the bernoulli equation relates pressure velocity and height in a flowing fluid,physics,in_m
+data/audio_train/5_gb_m.wav,the bernoulli equation relates pressure velocity and height in a flowing fluid,physics,gb_m
+data/audio_train/6_in_f.wav,the photoelectric effect demonstrates the particle nature of light,physics,in_f
+data/audio_train/6_in_m.wav,the photoelectric effect demonstrates the particle nature of light,physics,in_m
+data/audio_train/6_gb_m.wav,the photoelectric effect demonstrates the particle nature of light,physics,gb_m
+data/audio_train/7_in_f.wav,refraction occurs when a wave changes speed at the boundary between two media,physics,in_f
+data/audio_train/7_in_m.wav,refraction occurs when a wave changes speed at the boundary between two media,physics,in_m
+data/audio_train/7_gb_m.wav,refraction occurs when a wave changes speed at the boundary between two media,physics,gb_m
+data/audio_train/8_in_f.wav,the schrodinger equation describes wave function evolution over time,physics,in_f
+data/audio_train/8_in_m.wav,the schrodinger equation describes wave function evolution over time,physics,in_m
+data/audio_train/8_gb_m.wav,the schrodinger equation describes wave function evolution over time,physics,gb_m
+data/audio_train/9_in_f.wav,a photon carries energy proportional to its frequency,physics,in_f
+data/audio_train/9_in_m.wav,a photon carries energy proportional to its frequency,physics,in_m
+data/audio_train/9_gb_m.wav,a photon carries energy proportional to its frequency,physics,gb_m
+data/audio_train/10_in_f.wav,the lorentz force acts on a charged particle moving through a magnetic field,physics,in_f
+data/audio_train/10_in_m.wav,the lorentz force acts on a charged particle moving through a magnetic field,physics,in_m
+data/audio_train/10_gb_m.wav,the lorentz force acts on a charged particle moving through a magnetic field,physics,gb_m
+data/audio_train/11_in_f.wav,the coefficient of friction depends on the surfaces in contact,physics,in_f
+data/audio_train/11_in_m.wav,the coefficient of friction depends on the surfaces in contact,physics,in_m
+data/audio_train/11_gb_m.wav,the coefficient of friction depends on the surfaces in contact,physics,gb_m
+data/audio_train/12_in_f.wav,a superconductor expels magnetic flux below its critical temperature,physics,in_f
+data/audio_train/12_in_m.wav,a superconductor expels magnetic flux below its critical temperature,physics,in_m
+data/audio_train/12_gb_m.wav,a superconductor expels magnetic flux below its critical temperature,physics,gb_m
+data/audio_train/13_in_f.wav,the heisenberg uncertainty principle limits simultaneous knowledge of position and momentum,physics,in_f
+data/audio_train/13_in_m.wav,the heisenberg uncertainty principle limits simultaneous knowledge of position and momentum,physics,in_m
+data/audio_train/13_gb_m.wav,the heisenberg uncertainty principle limits simultaneous knowledge of position and momentum,physics,gb_m
+data/audio_train/14_in_f.wav,the eigenvalue of the hamiltonian operator determines the energy of the quantum state,physics,in_f
+data/audio_train/14_in_m.wav,the eigenvalue of the hamiltonian operator determines the energy of the quantum state,physics,in_m
+data/audio_train/14_gb_m.wav,the eigenvalue of the hamiltonian operator determines the energy of the quantum state,physics,gb_m
+data/audio_train/15_in_f.wav,entropy measures the degree of thermal disorder within an isolated system,physics,in_f
+data/audio_train/15_in_m.wav,entropy measures the degree of thermal disorder within an isolated system,physics,in_m
+data/audio_train/15_gb_m.wav,entropy measures the degree of thermal disorder within an isolated system,physics,gb_m
+data/audio_train/16_in_f.wav,polarization restricts the oscillation of a light wave to a single plane,physics,in_f
+data/audio_train/16_in_m.wav,polarization restricts the oscillation of a light wave to a single plane,physics,in_m
+data/audio_train/16_gb_m.wav,polarization restricts the oscillation of a light wave to a single plane,physics,gb_m
+data/audio_train/25_in_f.wav,the krebs cycle oxidizes acetyl coenzyme A to produce electron carriers,biology,in_f
+data/audio_train/25_in_m.wav,the krebs cycle oxidizes acetyl coenzyme A to produce electron carriers,biology,in_m
+data/audio_train/25_gb_m.wav,the krebs cycle oxidizes acetyl coenzyme A to produce electron carriers,biology,gb_m
+data/audio_train/26_in_f.wav,antibodies bind to specific antigens to neutralize pathogens,biology,in_f
+data/audio_train/26_in_m.wav,antibodies bind to specific antigens to neutralize pathogens,biology,in_m
+data/audio_train/26_gb_m.wav,antibodies bind to specific antigens to neutralize pathogens,biology,gb_m
+data/audio_train/27_in_f.wav,allosteric regulation changes enzyme activity through binding at a distant site,biology,in_f
+data/audio_train/27_in_m.wav,allosteric regulation changes enzyme activity through binding at a distant site,biology,in_m
+data/audio_train/27_gb_m.wav,allosteric regulation changes enzyme activity through binding at a distant site,biology,gb_m
+data/audio_train/28_in_f.wav,chloroplasts contain thylakoid membranes where the light reactions take place,biology,in_f
+data/audio_train/28_in_m.wav,chloroplasts contain thylakoid membranes where the light reactions take place,biology,in_m
+data/audio_train/28_gb_m.wav,chloroplasts contain thylakoid membranes where the light reactions take place,biology,gb_m
+data/audio_train/29_in_f.wav,ribosomes translate messenger RNA into polypeptide chains during translation,biology,in_f
+data/audio_train/29_in_m.wav,ribosomes translate messenger RNA into polypeptide chains during translation,biology,in_m
+data/audio_train/29_gb_m.wav,ribosomes translate messenger RNA into polypeptide chains during translation,biology,gb_m
+data/audio_train/30_in_f.wav,stem cells can differentiate into specialized cell types,biology,in_f
+data/audio_train/30_in_m.wav,stem cells can differentiate into specialized cell types,biology,in_m
+data/audio_train/30_gb_m.wav,stem cells can differentiate into specialized cell types,biology,gb_m
+data/audio_train/31_in_f.wav,transcription copies a gene from deoxyribonucleic acid into messenger RNA,biology,in_f
+data/audio_train/31_in_m.wav,transcription copies a gene from deoxyribonucleic acid into messenger RNA,biology,in_m
+data/audio_train/31_gb_m.wav,transcription copies a gene from deoxyribonucleic acid into messenger RNA,biology,gb_m
+data/audio_train/32_in_f.wav,the hippocampus plays a central role in the consolidation of memory,biology,in_f
+data/audio_train/32_in_m.wav,the hippocampus plays a central role in the consolidation of memory,biology,in_m
+data/audio_train/32_gb_m.wav,the hippocampus plays a central role in the consolidation of memory,biology,gb_m
+data/audio_train/33_in_f.wav,meiosis produces four genetically distinct haploid gametes,biology,in_f
+data/audio_train/33_in_m.wav,meiosis produces four genetically distinct haploid gametes,biology,in_m
+data/audio_train/33_gb_m.wav,meiosis produces four genetically distinct haploid gametes,biology,gb_m
+data/audio_train/34_in_f.wav,the cerebellum coordinates balance and voluntary movement,biology,in_f
+data/audio_train/34_in_m.wav,the cerebellum coordinates balance and voluntary movement,biology,in_m
+data/audio_train/34_gb_m.wav,the cerebellum coordinates balance and voluntary movement,biology,gb_m
+data/audio_train/35_in_f.wav,homeostasis maintains a stable internal environment despite external changes,biology,in_f
+data/audio_train/35_in_m.wav,homeostasis maintains a stable internal environment despite external changes,biology,in_m
+data/audio_train/35_gb_m.wav,homeostasis maintains a stable internal environment despite external changes,biology,gb_m
+data/audio_train/36_in_f.wav,the nephron filters blood and produces urine in the kidney,biology,in_f
+data/audio_train/36_in_m.wav,the nephron filters blood and produces urine in the kidney,biology,in_m
+data/audio_train/36_gb_m.wav,the nephron filters blood and produces urine in the kidney,biology,gb_m
+data/audio_train/37_in_f.wav,enzymes accelerate biochemical reactions by lowering the activation energy,biology,in_f
+data/audio_train/37_in_m.wav,enzymes accelerate biochemical reactions by lowering the activation energy,biology,in_m
+data/audio_train/37_gb_m.wav,enzymes accelerate biochemical reactions by lowering the activation energy,biology,gb_m
+data/audio_train/38_in_f.wav,mitochondria generate adenosine triphosphate through oxidative phosphorylation,biology,in_f
+data/audio_train/38_in_m.wav,mitochondria generate adenosine triphosphate through oxidative phosphorylation,biology,in_m
+data/audio_train/38_gb_m.wav,mitochondria generate adenosine triphosphate through oxidative phosphorylation,biology,gb_m
+data/audio_train/39_in_f.wav,natural selection favors heritable traits that increase reproductive success,biology,in_f
+data/audio_train/39_in_m.wav,natural selection favors heritable traits that increase reproductive success,biology,in_m
+data/audio_train/39_gb_m.wav,natural selection favors heritable traits that increase reproductive success,biology,gb_m
+data/audio_train/40_in_f.wav,symbiosis describes a close long term interaction between two different species,biology,in_f
+data/audio_train/40_in_m.wav,symbiosis describes a close long term interaction between two different species,biology,in_m
+data/audio_train/40_gb_m.wav,symbiosis describes a close long term interaction between two different species,biology,gb_m
+data/audio_train/49_in_f.wav,a binary heap supports insertion and extraction of the minimum in logarithmic time,cs,in_f
+data/audio_train/49_in_m.wav,a binary heap supports insertion and extraction of the minimum in logarithmic time,cs,in_m
+data/audio_train/49_gb_m.wav,a binary heap supports insertion and extraction of the minimum in logarithmic time,cs,gb_m
+data/audio_train/50_in_f.wav,polymorphism allows objects of different classes to respond to the same method call,cs,in_f
+data/audio_train/50_in_m.wav,polymorphism allows objects of different classes to respond to the same method call,cs,in_m
+data/audio_train/50_gb_m.wav,polymorphism allows objects of different classes to respond to the same method call,cs,gb_m
+data/audio_train/51_in_f.wav,overfitting happens when a model memorizes noise in the training data,cs,in_f
+data/audio_train/51_in_m.wav,overfitting happens when a model memorizes noise in the training data,cs,in_m
+data/audio_train/51_gb_m.wav,overfitting happens when a model memorizes noise in the training data,cs,gb_m
+data/audio_train/52_in_f.wav,a hash table resolves collisions using chaining or open addressing,cs,in_f
+data/audio_train/52_in_m.wav,a hash table resolves collisions using chaining or open addressing,cs,in_m
+data/audio_train/52_gb_m.wav,a hash table resolves collisions using chaining or open addressing,cs,gb_m
+data/audio_train/53_in_f.wav,a foreign key enforces referential integrity between two tables,cs,in_f
+data/audio_train/53_in_m.wav,a foreign key enforces referential integrity between two tables,cs,in_m
+data/audio_train/53_gb_m.wav,a foreign key enforces referential integrity between two tables,cs,gb_m
+data/audio_train/54_in_f.wav,backpropagation computes gradients of the loss with respect to network weights,cs,in_f
+data/audio_train/54_in_m.wav,backpropagation computes gradients of the loss with respect to network weights,cs,in_m
+data/audio_train/54_gb_m.wav,backpropagation computes gradients of the loss with respect to network weights,cs,gb_m
+data/audio_train/55_in_f.wav,a convolutional neural network applies learnable filters to extract spatial features,cs,in_f
+data/audio_train/55_in_m.wav,a convolutional neural network applies learnable filters to extract spatial features,cs,in_m
+data/audio_train/55_gb_m.wav,a convolutional neural network applies learnable filters to extract spatial features,cs,gb_m
+data/audio_train/56_in_f.wav,a red black tree preserves balance through rotations after every insertion,cs,in_f
+data/audio_train/56_in_m.wav,a red black tree preserves balance through rotations after every insertion,cs,in_m
+data/audio_train/56_gb_m.wav,a red black tree preserves balance through rotations after every insertion,cs,gb_m
+data/audio_train/57_in_f.wav,the attention mechanism lets a transformer weigh the relevance of every input token,cs,in_f
+data/audio_train/57_in_m.wav,the attention mechanism lets a transformer weigh the relevance of every input token,cs,in_m
+data/audio_train/57_gb_m.wav,the attention mechanism lets a transformer weigh the relevance of every input token,cs,gb_m
+data/audio_train/58_in_f.wav,a deadlock occurs when processes wait indefinitely for each other to release resources,cs,in_f
+data/audio_train/58_in_m.wav,a deadlock occurs when processes wait indefinitely for each other to release resources,cs,in_m
+data/audio_train/58_gb_m.wav,a deadlock occurs when processes wait indefinitely for each other to release resources,cs,gb_m
+data/audio_train/59_in_f.wav,virtual memory maps logical addresses to physical addresses using a page table,cs,in_f
+data/audio_train/59_in_m.wav,virtual memory maps logical addresses to physical addresses using a page table,cs,in_m
+data/audio_train/59_gb_m.wav,virtual memory maps logical addresses to physical addresses using a page table,cs,gb_m
+data/audio_train/60_in_f.wav,the gradient descent algorithm updates parameters in the direction of steepest decrease,cs,in_f
+data/audio_train/60_in_m.wav,the gradient descent algorithm updates parameters in the direction of steepest decrease,cs,in_m
+data/audio_train/60_gb_m.wav,the gradient descent algorithm updates parameters in the direction of steepest decrease,cs,gb_m
+data/audio_train/61_in_f.wav,dynamic programming stores subproblem solutions to avoid redundant computation,cs,in_f
+data/audio_train/61_in_m.wav,dynamic programming stores subproblem solutions to avoid redundant computation,cs,in_m
+data/audio_train/61_gb_m.wav,dynamic programming stores subproblem solutions to avoid redundant computation,cs,gb_m
+data/audio_train/62_in_f.wav,a mutex prevents concurrent threads from accessing a shared resource simultaneously,cs,in_f
+data/audio_train/62_in_m.wav,a mutex prevents concurrent threads from accessing a shared resource simultaneously,cs,in_m
+data/audio_train/62_gb_m.wav,a mutex prevents concurrent threads from accessing a shared resource simultaneously,cs,gb_m
+data/audio_train/63_in_f.wav,supervised learning requires labeled datasets for minimizing empirical loss,cs,in_f
+data/audio_train/63_in_m.wav,supervised learning requires labeled datasets for minimizing empirical loss,cs,in_m
+data/audio_train/63_gb_m.wav,supervised learning requires labeled datasets for minimizing empirical loss,cs,gb_m
+data/audio_train/64_in_f.wav,the halting problem is undecidable for a general turing machine,cs,in_f
+data/audio_train/64_in_m.wav,the halting problem is undecidable for a general turing machine,cs,in_m
+data/audio_train/64_gb_m.wav,the halting problem is undecidable for a general turing machine,cs,gb_m
+data/audio_train/73_in_f.wav,the logarithm is the inverse of the exponential function,math,in_f
+data/audio_train/73_in_m.wav,the logarithm is the inverse of the exponential function,math,in_m
+data/audio_train/73_gb_m.wav,the logarithm is the inverse of the exponential function,math,gb_m
+data/audio_train/74_in_f.wav,a sequence is convergent if its limit exists and is finite,math,in_f
+data/audio_train/74_in_m.wav,a sequence is convergent if its limit exists and is finite,math,in_m
+data/audio_train/74_gb_m.wav,a sequence is convergent if its limit exists and is finite,math,gb_m
+data/audio_train/75_in_f.wav,the variance of the sum of independent random variables is the sum of their variances,math,in_f
+data/audio_train/75_in_m.wav,the variance of the sum of independent random variables is the sum of their variances,math,in_m
+data/audio_train/75_gb_m.wav,the variance of the sum of independent random variables is the sum of their variances,math,gb_m
+data/audio_train/76_in_f.wav,a vector space is closed under addition and scalar multiplication,math,in_f
+data/audio_train/76_in_m.wav,a vector space is closed under addition and scalar multiplication,math,in_m
+data/audio_train/76_gb_m.wav,a vector space is closed under addition and scalar multiplication,math,gb_m
+data/audio_train/77_in_f.wav,the eigenvectors of a symmetric matrix are mutually orthogonal,math,in_f
+data/audio_train/77_in_m.wav,the eigenvectors of a symmetric matrix are mutually orthogonal,math,in_m
+data/audio_train/77_gb_m.wav,the eigenvectors of a symmetric matrix are mutually orthogonal,math,gb_m
+data/audio_train/78_in_f.wav,a bijection is a function that is both injective and surjective,math,in_f
+data/audio_train/78_in_m.wav,a bijection is a function that is both injective and surjective,math,in_m
+data/audio_train/78_gb_m.wav,a bijection is a function that is both injective and surjective,math,gb_m
+data/audio_train/79_in_f.wav,a null hypothesis is rejected when the p value falls below the significance level,math,in_f
+data/audio_train/79_in_m.wav,a null hypothesis is rejected when the p value falls below the significance level,math,in_m
+data/audio_train/79_gb_m.wav,a null hypothesis is rejected when the p value falls below the significance level,math,gb_m
+data/audio_train/80_in_f.wav,a permutation counts ordered arrangements while a combination ignores order,math,in_f
+data/audio_train/80_in_m.wav,a permutation counts ordered arrangements while a combination ignores order,math,in_m
+data/audio_train/80_gb_m.wav,a permutation counts ordered arrangements while a combination ignores order,math,gb_m
+data/audio_train/81_in_f.wav,a prime number has exactly two positive divisors,math,in_f
+data/audio_train/81_in_m.wav,a prime number has exactly two positive divisors,math,in_m
+data/audio_train/81_gb_m.wav,a prime number has exactly two positive divisors,math,gb_m
+data/audio_train/82_in_f.wav,the pythagorean theorem relates the sides of a right angled triangle,math,in_f
+data/audio_train/82_in_m.wav,the pythagorean theorem relates the sides of a right angled triangle,math,in_m
+data/audio_train/82_gb_m.wav,the pythagorean theorem relates the sides of a right angled triangle,math,gb_m
+data/audio_train/83_in_f.wav,the taylor series approximates a smooth function using its derivatives at a point,math,in_f
+data/audio_train/83_in_m.wav,the taylor series approximates a smooth function using its derivatives at a point,math,in_m
+data/audio_train/83_gb_m.wav,the taylor series approximates a smooth function using its derivatives at a point,math,gb_m
+data/audio_train/84_in_f.wav,the integral of the exponential function is the exponential function plus a constant,math,in_f
+data/audio_train/84_in_m.wav,the integral of the exponential function is the exponential function plus a constant,math,in_m
+data/audio_train/84_gb_m.wav,the integral of the exponential function is the exponential function plus a constant,math,gb_m
+data/audio_train/85_in_f.wav,a geometric series converges when the common ratio has magnitude less than one,math,in_f
+data/audio_train/85_in_m.wav,a geometric series converges when the common ratio has magnitude less than one,math,in_m
+data/audio_train/85_gb_m.wav,a geometric series converges when the common ratio has magnitude less than one,math,gb_m
+data/audio_train/86_in_f.wav,the standard deviation measures the dispersion of a set of values around the mean,math,in_f
+data/audio_train/86_in_m.wav,the standard deviation measures the dispersion of a set of values around the mean,math,in_m
+data/audio_train/86_gb_m.wav,the standard deviation measures the dispersion of a set of values around the mean,math,gb_m
+data/audio_train/87_in_f.wav,the rank of a matrix equals the number of linearly independent rows,math,in_f
+data/audio_train/87_in_m.wav,the rank of a matrix equals the number of linearly independent rows,math,in_m
+data/audio_train/87_gb_m.wav,the rank of a matrix equals the number of linearly independent rows,math,gb_m
+data/audio_train/88_in_f.wav,bayes theorem updates the probability of a hypothesis given new evidence,math,in_f
+data/audio_train/88_in_m.wav,bayes theorem updates the probability of a hypothesis given new evidence,math,in_m
+data/audio_train/88_gb_m.wav,bayes theorem updates the probability of a hypothesis given new evidence,math,gb_m
+data/audio_train/97_in_f.wav,an ionic bond results from the electrostatic attraction between cations and anions,chemistry,in_f
+data/audio_train/97_in_m.wav,an ionic bond results from the electrostatic attraction between cations and anions,chemistry,in_m
+data/audio_train/97_gb_m.wav,an ionic bond results from the electrostatic attraction between cations and anions,chemistry,gb_m
+data/audio_train/98_in_f.wav,a polymer is formed by repeated linking of monomer units,chemistry,in_f
+data/audio_train/98_in_m.wav,a polymer is formed by repeated linking of monomer units,chemistry,in_m
+data/audio_train/98_gb_m.wav,a polymer is formed by repeated linking of monomer units,chemistry,gb_m
+data/audio_train/99_in_f.wav,a nucleophile donates an electron pair to form a new covalent bond,chemistry,in_f
+data/audio_train/99_in_m.wav,a nucleophile donates an electron pair to form a new covalent bond,chemistry,in_m
+data/audio_train/99_gb_m.wav,a nucleophile donates an electron pair to form a new covalent bond,chemistry,gb_m
+data/audio_train/100_in_f.wav,the rate law expresses reaction speed as a function of reactant concentration,chemistry,in_f
+data/audio_train/100_in_m.wav,the rate law expresses reaction speed as a function of reactant concentration,chemistry,in_m
+data/audio_train/100_gb_m.wav,the rate law expresses reaction speed as a function of reactant concentration,chemistry,gb_m
+data/audio_train/101_in_f.wav,the avogadro constant defines the number of particles in one mole,chemistry,in_f
+data/audio_train/101_in_m.wav,the avogadro constant defines the number of particles in one mole,chemistry,in_m
+data/audio_train/101_gb_m.wav,the avogadro constant defines the number of particles in one mole,chemistry,gb_m
+data/audio_train/102_in_f.wav,covalent bonds form when atoms share pairs of electrons,chemistry,in_f
+data/audio_train/102_in_m.wav,covalent bonds form when atoms share pairs of electrons,chemistry,in_m
+data/audio_train/102_gb_m.wav,covalent bonds form when atoms share pairs of electrons,chemistry,gb_m
+data/audio_train/103_in_f.wav,the stoichiometric ratio determines the limiting reagent in a reaction,chemistry,in_f
+data/audio_train/103_in_m.wav,the stoichiometric ratio determines the limiting reagent in a reaction,chemistry,in_m
+data/audio_train/103_gb_m.wav,the stoichiometric ratio determines the limiting reagent in a reaction,chemistry,gb_m
+data/audio_train/104_in_f.wav,oxidation involves the loss of electrons while reduction involves the gain of electrons,chemistry,in_f
+data/audio_train/104_in_m.wav,oxidation involves the loss of electrons while reduction involves the gain of electrons,chemistry,in_m
+data/audio_train/104_gb_m.wav,oxidation involves the loss of electrons while reduction involves the gain of electrons,chemistry,gb_m
+data/audio_train/105_in_f.wav,le chatelier principle predicts how an equilibrium shifts under applied stress,chemistry,in_f
+data/audio_train/105_in_m.wav,le chatelier principle predicts how an equilibrium shifts under applied stress,chemistry,in_m
+data/audio_train/105_gb_m.wav,le chatelier principle predicts how an equilibrium shifts under applied stress,chemistry,gb_m
+data/audio_train/106_in_f.wav,intermolecular hydrogen bonding raises the boiling point of water,chemistry,in_f
+data/audio_train/106_in_m.wav,intermolecular hydrogen bonding raises the boiling point of water,chemistry,in_m
+data/audio_train/106_gb_m.wav,intermolecular hydrogen bonding raises the boiling point of water,chemistry,gb_m
+data/audio_train/107_in_f.wav,electrophilic aromatic substitution replaces a hydrogen atom on a benzene ring,chemistry,in_f
+data/audio_train/107_in_m.wav,electrophilic aromatic substitution replaces a hydrogen atom on a benzene ring,chemistry,in_m
+data/audio_train/107_gb_m.wav,electrophilic aromatic substitution replaces a hydrogen atom on a benzene ring,chemistry,gb_m
+data/audio_train/108_in_f.wav,the gibbs free energy predicts the spontaneity of a chemical process,chemistry,in_f
+data/audio_train/108_in_m.wav,the gibbs free energy predicts the spontaneity of a chemical process,chemistry,in_m
+data/audio_train/108_gb_m.wav,the gibbs free energy predicts the spontaneity of a chemical process,chemistry,gb_m
+data/audio_train/109_in_f.wav,the periodic table arranges elements by increasing atomic number,chemistry,in_f
+data/audio_train/109_in_m.wav,the periodic table arranges elements by increasing atomic number,chemistry,in_m
+data/audio_train/109_gb_m.wav,the periodic table arranges elements by increasing atomic number,chemistry,gb_m
+data/audio_train/110_in_f.wav,a buffer solution resists changes in ph when small amounts of acid are added,chemistry,in_f
+data/audio_train/110_in_m.wav,a buffer solution resists changes in ph when small amounts of acid are added,chemistry,in_m
+data/audio_train/110_gb_m.wav,a buffer solution resists changes in ph when small amounts of acid are added,chemistry,gb_m
+data/audio_train/111_in_f.wav,valence electrons determine the chemical reactivity of an element,chemistry,in_f
+data/audio_train/111_in_m.wav,valence electrons determine the chemical reactivity of an element,chemistry,in_m
+data/audio_train/111_gb_m.wav,valence electrons determine the chemical reactivity of an element,chemistry,gb_m
+data/audio_train/112_in_f.wav,the ph of a solution is the negative logarithm of the hydrogen ion concentration,chemistry,in_f
+data/audio_train/112_in_m.wav,the ph of a solution is the negative logarithm of the hydrogen ion concentration,chemistry,in_m
+data/audio_train/112_gb_m.wav,the ph of a solution is the negative logarithm of the hydrogen ion concentration,chemistry,gb_m
