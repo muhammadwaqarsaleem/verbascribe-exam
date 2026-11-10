@@ -45,8 +45,7 @@ class IntentParser:
             
             slot_preds = torch.argmax(slot_logits, dim=-1)[0].cpu().numpy()
 
-        target_tokens, repl_tokens = [], []
-        words = text.split()
+        target_spans, repl_spans = [], []
         
         # Subword alignment to extract target & replacement
         for subword_id, tag_id in enumerate(slot_preds):
@@ -54,16 +53,15 @@ class IntentParser:
             start, end = offset_mapping[subword_id]
             if start == end:
                 continue
-            span = text[start:end]
             if tag in ["B-TARGET", "I-TARGET"]:
-                target_tokens.append(span)
+                target_spans.append((start, end))
             elif tag in ["B-REPLACEMENT", "I-REPLACEMENT"]:
-                repl_tokens.append(span)
+                repl_spans.append((start, end))
 
-        target = "".join(target_tokens).strip() or None
-        replacement = "".join(repl_tokens).strip() or None
+        target = text[target_spans[0][0]:target_spans[-1][1]].strip() if target_spans else None
+        replacement = text[repl_spans[0][0]:repl_spans[-1][1]].strip() if repl_spans else None
 
-        # Structural action resolution
+        # Structural action resolution adhering to schemas.py contract
         action_type = None
         lower_t = text.lower()
         if pred_intent == "EDIT_ACTION":
@@ -77,8 +75,10 @@ class IntentParser:
                 action_type = "DELETE_SPAN"
             elif "clear" in lower_t or "erase all" in lower_t:
                 action_type = "CLEAR_BUFFER"
+            else:
+                action_type = "DELETE_LAST_WORD"
         elif pred_intent == "NAVIGATION":
-            action_type = "READBACK_ALL" if "paragraph" in lower_t or "buffer" in lower_t else "READBACK_LAST_SENTENCE"
+            action_type = "READBACK_ALL" if ("paragraph" in lower_t or "buffer" in lower_t) else "READBACK_LAST_SENTENCE"
 
         is_collision = any(w in lower_t for w in ["delete", "replace", "clear", "scratch"]) and pred_intent == "DICTATION"
 

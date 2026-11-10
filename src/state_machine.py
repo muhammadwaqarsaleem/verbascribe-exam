@@ -194,9 +194,9 @@ class AnswerStateMachine:
         if kind == "NAVIGATION":
             return self._navigate(asr)
         if kind == "EDIT_ACTION":
-            if action == "DELETE":
+            if action in ("DELETE", "DELETE_SPAN", "DELETE_LAST_WORD", "DELETE_LAST_SENTENCE", "CLEAR_BUFFER"):
                 return self._delete(asr, intent)
-            if action == "SUBSTITUTE":
+            if action in ("SUBSTITUTE", "SUBSTITUTE_SPAN"):
                 return self._substitute(asr, intent)
             if action == "INSERT":
                 text = intent.replacement_text or intent.target_text
@@ -224,6 +224,12 @@ class AnswerStateMachine:
         if not self.sentences:
             return self._respond("Your answer is empty. Nothing to delete.")
 
+        action = (intent.action_type or "").upper()
+        if action == "CLEAR_BUFFER":
+            self._snapshot()
+            self.sentences = []
+            return self._respond("Buffer cleared. Your answer is empty.")
+
         if intent.target_text:
             loc = self._find(intent.target_text)
             if loc is None:
@@ -234,10 +240,10 @@ class AnswerStateMachine:
             label = None
         else:
             # Pillar II leaves target_text empty for relative deletes and does not
-            # say which unit, so read it off the transcript. Default: last word.
+            # say which unit, so read it off the transcript or explicit ActionType.
             heard = _normalize(asr.raw_transcript)
             si = len(self.sentences) - 1
-            if re.search(r"\b(sentence|paragraph)\b", heard):
+            if action == "DELETE_LAST_SENTENCE" or re.search(r"\b(sentence|paragraph)\b", heard):
                 wi, n = 0, len(self.sentences[si])
                 label = "the last sentence"
             else:
