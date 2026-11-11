@@ -151,6 +151,13 @@ class AnswerStateMachine:
             if reply is not None:
                 return reply
 
+        if self._is_clear(intent):
+            if not self.sentences:
+                return self._respond("Your answer is already empty.")
+            self._pending = (asr, intent)
+            return self._respond(
+                "Clear your whole answer? Say yes to clear it, or no to keep it."
+            )
         if self._needs_confirmation(intent):
             self._pending = (asr, intent)
             return self._respond(
@@ -166,6 +173,10 @@ class AnswerStateMachine:
         return self._respond(f"Undone. {self._active_phrase(len(self.sentences) - 1)}")
 
     # ---- routing ---------------------------------------------------------- #
+    @staticmethod
+    def _is_clear(intent: IntentSlotResult) -> bool:
+        return intent.intent == "EDIT_ACTION" and intent.action_type == "CLEAR_BUFFER"
+
     def _needs_confirmation(self, intent: IntentSlotResult) -> bool:
         return intent.intent == "EDIT_ACTION" and (
             intent.is_collision_risk or intent.confidence < self.min_intent_conf
@@ -179,6 +190,8 @@ class AnswerStateMachine:
             return self._dispatch(p_asr, p_intent)
         if heard in _NO:
             self._pending = None
+            if self._is_clear(p_intent):  # never turn "clear" into answer text
+                return self._respond("Okay, your answer is unchanged.")
             return self._dictate(p_asr)
         self._pending = None  # anything else: drop it and treat as a new utterance
         return None
@@ -192,15 +205,12 @@ class AnswerStateMachine:
         if kind == "DICTATION":
             return self._dictate(asr)
         if kind == "NAVIGATION":
-            return self._navigate(asr)
+            return self._navigate(asr, intent)
         if kind == "EDIT_ACTION":
-            if action in ("DELETE", "DELETE_SPAN", "DELETE_LAST_WORD", "DELETE_LAST_SENTENCE", "CLEAR_BUFFER"):
+            if action in ("DELETE_SPAN", "DELETE_LAST_WORD", "DELETE_LAST_SENTENCE", "CLEAR_BUFFER"):
                 return self._delete(asr, intent)
-            if action in ("SUBSTITUTE", "SUBSTITUTE_SPAN"):
+            if action == "SUBSTITUTE_SPAN":
                 return self._substitute(asr, intent)
-            if action == "INSERT":
-                text = intent.replacement_text or intent.target_text
-                return self._dictate(asr, text=text)
         return self._respond("Sorry, I didn't understand that. Your answer is unchanged.")
 
     # ---- operations ------------------------------------------------------- #
@@ -225,30 +235,27 @@ class AnswerStateMachine:
             return self._respond("Your answer is empty. Nothing to delete.")
 
         action = (intent.action_type or "").upper()
-        if action == "CLEAR_BUFFER":
+        if action == "CLEAR_BUFFER":  # reached only after the student said yes
             self._snapshot()
             self.sentences = []
-            return self._respond("Buffer cleared. Your answer is empty.")
+            return self._respond("Cleared. Your answer is now empty.")
 
-        if intent.target_text:
+        si = len(self.sentences) - 1
+        label = None
+        if action == "DELETE_LAST_SENTENCE":
+            wi, n = 0, len(self.sentences[si])
+            label = "the last sentence"
+        elif action == "DELETE_LAST_WORD":
+            wi, n = len(self.sentences[si]) - 1, 1
+        else:  # DELETE_SPAN
+            if not intent.target_text:
+                return self._respond("I didn't hear which words to delete. Nothing deleted.")
             loc = self._find(intent.target_text)
             if loc is None:
                 return self._respond(
                     f"I couldn't find {intent.target_text} in your answer. Nothing deleted."
                 )
             si, wi, n = loc
-            label = None
-        else:
-            # Pillar II leaves target_text empty for relative deletes and does not
-            # say which unit, so read it off the transcript or explicit ActionType.
-            heard = _normalize(asr.raw_transcript)
-            si = len(self.sentences) - 1
-            if action == "DELETE_LAST_SENTENCE" or re.search(r"\b(sentence|paragraph)\b", heard):
-                wi, n = 0, len(self.sentences[si])
-                label = "the last sentence"
-            else:
-                wi, n = len(self.sentences[si]) - 1, 1
-                label = None
 
         self._snapshot()
         removed, active = self._remove_span(si, wi, n)
@@ -296,14 +303,21 @@ class AnswerStateMachine:
             f"Replaced {_say(old)} with {_say(new)}. {self._active_phrase(si)}", flagged
         )
 
-    def _navigate(self, asr: ASRTranscriptionResult) -> SystemResponse:
+    def _navigate(
+        self, asr: ASRTranscriptionResult, intent: IntentSlotResult
+    ) -> SystemResponse:
         heard = _normalize(asr.raw_transcript)
         if "question" in heard:
             return self._respond("Moving between questions is not supported yet.")
         if not self.sentences:
             return self._respond("Your answer is empty.")
 
-        if re.search(r"\b(last|previous) sentence\b", heard):
+        action = intent.action_type
+        if action == "READBACK_LAST_SENTENCE":
+            span = self.sentences[-1]
+        elif action == "READBACK_ALL":
+            span = [w for s in self.sentences for w in s]
+        elif re.search(r"\b(last|previous) sentence\b", heard):  # no action_type given
             span = self.sentences[-1]
         else:
             span = [w for s in self.sentences for w in s]
