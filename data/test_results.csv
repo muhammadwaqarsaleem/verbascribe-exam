@@ -1,0 +1,81 @@
+clip_id,model,ref,hyp,errors,n_ref,kw_total,kw_miss
+17,base,centripetal acceleration points toward the center of a circular path,centribural acceleration points towards the center of a circular path,2,10,1,1
+18,base,angular momentum is conserved when no external torque acts on the system,angular momentum is conserved when no external torque acts on the system,0,12,1,0
+19,base,nuclear fission releases energy by splitting a heavy nucleus into lighter fragments,nuclear fission reduces energy by splitting a heavy nucleus into lighter fragments,1,12,2,0
+20,base,resonance occurs when the driving frequency matches the natural frequency of a system,residence occurs when the driving frequency matches the natural frequency of a system,1,13,0,0
+21,base,a fermion obeys the pauli exclusion principle while a boson does not,afermion obeys the polyexclusion principle while a boson does not,4,12,3,2
+22,base,the doppler shift changes the observed frequency of a moving wave source,the doppler shift changes the observed frequency of a moving wave source,0,12,1,0
+23,base,an inductor opposes changes in current through electromagnetic induction,an inductor opposes changes in current through electromagnetic induction,0,9,2,0
+24,base,gauss law relates electric flux through a closed surface to the enclosed charge,voiszzla relates electric flux through a closed surface to the enclosed charge,2,13,2,1
+41,base,the endoplasmic reticulum folds proteins and synthesizes lipids,the endoplasmic reticulum falls proteins and synthesis lipids,2,8,2,0
+42,base,peptide bonds link amino acids together to form proteins,peptide bonds link amino acids together to form proteins,0,9,1,0
+43,base,dna polymerase synthesizes a new strand by adding nucleotides to the three prime end,dna polymerase synthesizes unused strand by adding nucleotides to the three prime end,2,14,2,0
+44,base,the phospholipid bilayer regulates the diffusion of molecules across the membrane,the phospholipate bilayer regulates the diffusion of molecules across the membrane,1,11,2,1
+45,base,osmosis moves water across a semipermeable membrane toward higher solute concentration,osmosis moves water across a semi permeable membrane toward higher solute concentration,2,11,3,1
+46,base,photosynthesis converts carbon dioxide and water into glucose using chlorophyll,photos photosynthesis converts carbon dioxide and water in the glucose using chlorophyll,3,10,2,0
+47,base,the sodium potassium pump maintains the electrochemical gradient across the cell membrane,the sodium potassium pump maintains the electrochemical gradient across the cell membrane,0,12,1,0
+48,base,mutations in the genome can be silent missense or nonsense,mutations in the genome can be silent missense or nonsense,0,10,3,0
+65,base,the quicksort average case time complexity evaluates to big o of n log n,the click sold average case time complexity evaluates to big o of n log n,2,14,1,1
+66,base,tokenization splits raw text into smaller units for language processing,tokenization splits raw text into smaller units for language processing,0,10,1,0
+67,base,dijkstra algorithm finds the shortest path in a graph with non negative weights,thus castro algorithm finds the shortest path in a graph with no negative weights,3,13,1,1
+68,base,the transmission control protocol guarantees reliable ordered delivery of packets,the transmission control protocol grantee is reliable ordered really off packets,4,10,0,0
+69,base,normalization reduces redundancy in a relational database schema,normalization reduces redundancy in a relational database schema,0,8,0,0
+70,base,recursion solves a problem by reducing it to smaller instances of itself,recursion solves a problem by reducing it to smaller instances of itself,0,12,0,0
+71,base,asymmetric encryption uses a public key and a private key,asmetric encryption uses a public key and a private key,1,10,2,1
+72,base,a compiler translates source code into machine instructions,a compiler translates source code into machine instructions,0,8,0,0
+89,base,a function is continuous if small changes in input cause small changes in output,a function is continuous if small changes in input causes small changes in output,1,14,0,0
+90,base,the central limit theorem states that sample means approach a normal distribution,the central limit theorem shares that sample means approach a normal distribution,1,12,0,0
+91,base,the laplace transform converts a differential equation into an algebraic equation,the laplace transform converts a differential equation into an algebraic equation,0,11,2,0
+92,base,the fundamental theorem of calculus links differentiation and integration,the fundamental theorem of calculus links differentiation and integration,0,9,1,0
+93,base,the gradient of a scalar field points in the direction of greatest increase,the gradient of a scalar field points in the direction of greatest increase,0,13,0,0
+94,base,a matrix is invertible if and only if its determinant is nonzero,a matrix is invertible if and only if its determinant is non zero,2,12,2,0
+95,base,a differential equation relates a function to its derivatives,a differential equation relates a function to its derivatives,0,9,0,0
+96,base,the determinant of an orthogonal matrix is either positive one or negative one,the determinant of an orthogonal matrix is either positive one or negative one,0,13,2,0
+113,base,isomers share the same molecular formula but differ in structural arrangement,isomer shared the same molecular formula but differ in structural arrangement,2,11,1,1
+114,base,hybridization of orbitals explains the tetrahedral geometry of methane,hybridization of orbitals explains the tetrahedral geometry of methane,0,9,3,0
+115,base,electronegativity increases across a period and decreases down a group,electro negativity increases across a period and decreases down a group,2,10,1,1
+116,base,a titration determines the concentration of an unknown solution using a standard reagent,our dilation determines the concentration of an unknown solution using a standard reagent,2,13,2,1
+117,base,an exothermic reaction releases heat to the surroundings,an exothermic reaction releases here to the surroundings,1,8,1,0
+118,base,catalysts lower the activation energy without being consumed in the reaction,cattleists lower reactivation energy without being consumed in the reaction,3,11,1,1
+119,base,chromatography separates the components of a mixture based on their affinity,chromatography separates the components of a mixture based on their affinity,0,11,1,0
+120,base,enthalpy change measures the heat absorbed or released at constant pressure,enthalpi changes may hear z heat absorbed or released at constant pressure,5,11,1,1
+17,lora,centripetal acceleration points toward the center of a circular path,centripetral acceleration points to the center of a circular path,2,10,1,1
+18,lora,angular momentum is conserved when no external torque acts on the system,angular momentum is conserved when no external torque acts on the system,0,12,1,0
+19,lora,nuclear fission releases energy by splitting a heavy nucleus into lighter fragments,nucleophian reduces energy by splitting a heavy nucleus into lighter fragments,3,12,2,1
+20,lora,resonance occurs when the driving frequency matches the natural frequency of a system,resonance occurs when the driving frequency matches the natural frequency of a system,0,13,0,0
+21,lora,a fermion obeys the pauli exclusion principle while a boson does not,afermion obeys the polyexclusion principle while a boson does not,4,12,3,2
+22,lora,the doppler shift changes the observed frequency of a moving wave source,the doppler shift changes the observed frequency of a moving wave source,0,12,1,0
+23,lora,an inductor opposes changes in current through electromagnetic induction,an inductor opposes changes in current through electromagnetic induction,0,9,2,0
+24,lora,gauss law relates electric flux through a closed surface to the enclosed charge,voszzla relates electric flux through a closed surface to the enclosed charge,2,13,2,1
+41,lora,the endoplasmic reticulum folds proteins and synthesizes lipids,the endoplasmic reticulum falls proteins and synthesis lipids,2,8,2,0
+42,lora,peptide bonds link amino acids together to form proteins,peptide bonds link amino acids together to form proteins,0,9,1,0
+43,lora,dna polymerase synthesizes a new strand by adding nucleotides to the three prime end,dna polymerase synthesizes unused strand by adding nucleotides to the three prime end,2,14,2,0
+44,lora,the phospholipid bilayer regulates the diffusion of molecules across the membrane,the phospholipid bilayer regulates the diffusion of molecules across the membrane,0,11,2,0
+45,lora,osmosis moves water across a semipermeable membrane toward higher solute concentration,osmosis moves water across a semi permeable membrane toward higher solute concentration,2,11,3,1
+46,lora,photosynthesis converts carbon dioxide and water into glucose using chlorophyll,photosynthesis converts carbon dioxide and water in blue coils using chlorophyll,3,10,2,0
+47,lora,the sodium potassium pump maintains the electrochemical gradient across the cell membrane,the sodium potassium pump maintains the electrochemical gradient across the cell membrane,0,12,1,0
+48,lora,mutations in the genome can be silent missense or nonsense,mutations in the genome can be silent missense or nonsense,0,10,3,0
+65,lora,the quicksort average case time complexity evaluates to big o of n log n,the click sold average case time complexity evaluates to big o of n log n,2,14,1,1
+66,lora,tokenization splits raw text into smaller units for language processing,tokenizations splits row text into smaller units for language processing,2,10,1,1
+67,lora,dijkstra algorithm finds the shortest path in a graph with non negative weights,does castral algorithm finds the shortest path in a graph with no negative weights,3,13,1,1
+68,lora,the transmission control protocol guarantees reliable ordered delivery of packets,the transmission control protocol grantees reliable ordered really of packets,2,10,0,0
+69,lora,normalization reduces redundancy in a relational database schema,normalization reduces redundancy in a relational database schema,0,8,0,0
+70,lora,recursion solves a problem by reducing it to smaller instances of itself,recursion solves a problem by reducing it to smaller instances of itself,0,12,0,0
+71,lora,asymmetric encryption uses a public key and a private key,asymmetric encryption uses a public key and a private key,0,10,2,0
+72,lora,a compiler translates source code into machine instructions,a compiler translates source code into machine instructions,0,8,0,0
+89,lora,a function is continuous if small changes in input cause small changes in output,a function is continuous if small changes in input causes small changes in output,1,14,0,0
+90,lora,the central limit theorem states that sample means approach a normal distribution,the central limit theorem shares that sample means approach a normal distribution,1,12,0,0
+91,lora,the laplace transform converts a differential equation into an algebraic equation,the lapelast transform converts a differential equation into an algebraic equation,1,11,2,1
+92,lora,the fundamental theorem of calculus links differentiation and integration,the fundamental theorem of calculus links differentiation and integration,0,9,1,0
+93,lora,the gradient of a scalar field points in the direction of greatest increase,the gradient of a scalar field points in the direction of greatest increase,0,13,0,0
+94,lora,a matrix is invertible if and only if its determinant is nonzero,a matrix is invertible if and only if its determinant is non zero,2,12,2,0
+95,lora,a differential equation relates a function to its derivatives,a differential equation relates a function to its derivatives,0,9,0,0
+96,lora,the determinant of an orthogonal matrix is either positive one or negative one,the determinant of an orthogonal matrix is either positive one or negative one,0,13,2,0
+113,lora,isomers share the same molecular formula but differ in structural arrangement,isomer shared the same molecular formula but differ in structural arrangement,2,11,1,1
+114,lora,hybridization of orbitals explains the tetrahedral geometry of methane,hybridization of orbitals explains the tetrahedral geometry of methane,0,9,3,0
+115,lora,electronegativity increases across a period and decreases down a group,electronegativity increases across a period and decreases down a group,0,10,1,0
+116,lora,a titration determines the concentration of an unknown solution using a standard reagent,a dilation determines the concentration of an unknown solution using a standard reagent,1,13,2,1
+117,lora,an exothermic reaction releases heat to the surroundings,an exothermic reaction releases here to the surroundings,1,8,1,0
+118,lora,catalysts lower the activation energy without being consumed in the reaction,catalyst lower the activation energy without being consumed in the reaction,1,11,1,1
+119,lora,chromatography separates the components of a mixture based on their affinity,chromatography separates the components of a mixture based on their affinity,0,11,1,0
+120,lora,enthalpy change measures the heat absorbed or released at constant pressure,enthalpy changes may hear z heat absorbed or released at constant pressure,4,11,1,0
