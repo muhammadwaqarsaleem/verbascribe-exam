@@ -39,7 +39,7 @@ clip_id,model,ref,hyp,errors,n_ref,kw_total,kw_miss
 118,base,catalysts lower the activation energy without being consumed in the reaction,cattleists lower reactivation energy without being consumed in the reaction,3,11,1,1
 119,base,chromatography separates the components of a mixture based on their affinity,chromatography separates the components of a mixture based on their affinity,0,11,1,0
 120,base,enthalpy change measures the heat absorbed or released at constant pressure,enthalpi changes may hear z heat absorbed or released at constant pressure,5,11,1,1
-17,lora,centripetal acceleration points toward the center of a circular path,centripetral acceleration points to the center of a circular path,2,10,1,1
+17,lora,centripetal acceleration points toward the center of a circular path,centripetral acceleration points towards the center of a circular path,2,10,1,1
 18,lora,angular momentum is conserved when no external torque acts on the system,angular momentum is conserved when no external torque acts on the system,0,12,1,0
 19,lora,nuclear fission releases energy by splitting a heavy nucleus into lighter fragments,nucleophian reduces energy by splitting a heavy nucleus into lighter fragments,3,12,2,1
 20,lora,resonance occurs when the driving frequency matches the natural frequency of a system,resonance occurs when the driving frequency matches the natural frequency of a system,0,13,0,0
@@ -57,7 +57,7 @@ clip_id,model,ref,hyp,errors,n_ref,kw_total,kw_miss
 48,lora,mutations in the genome can be silent missense or nonsense,mutations in the genome can be silent missense or nonsense,0,10,3,0
 65,lora,the quicksort average case time complexity evaluates to big o of n log n,the click sold average case time complexity evaluates to big o of n log n,2,14,1,1
 66,lora,tokenization splits raw text into smaller units for language processing,tokenizations splits row text into smaller units for language processing,2,10,1,1
-67,lora,dijkstra algorithm finds the shortest path in a graph with non negative weights,does castral algorithm finds the shortest path in a graph with no negative weights,3,13,1,1
+67,lora,dijkstra algorithm finds the shortest path in a graph with non negative weights,thus castral algorithm finds the shortest path in a graph with no negative weights,3,13,1,1
 68,lora,the transmission control protocol guarantees reliable ordered delivery of packets,the transmission control protocol grantees reliable ordered really of packets,2,10,0,0
 69,lora,normalization reduces redundancy in a relational database schema,normalization reduces redundancy in a relational database schema,0,8,0,0
 70,lora,recursion solves a problem by reducing it to smaller instances of itself,recursion solves a problem by reducing it to smaller instances of itself,0,12,0,0
