@@ -55,7 +55,7 @@ from src.schemas import (  # noqa: E402
 from src.state_machine import AnswerStateMachine  # noqa: E402
 
 DEFAULT_MODEL_DIR = ROOT / "models" / "intent_slot_model"
-TAU_DEFAULT = 0.90  # confidence threshold from the Pillar III execution contract
+TAU_DEFAULT = 0.93  # confidence threshold from the Pillar III execution contract
 NORMAL_WPM, SLOW_WPM = 200, 140
 SLU_BUDGET_MS = 50.0  # latency target for IntentParser.parse() (final report, Section 4)
 

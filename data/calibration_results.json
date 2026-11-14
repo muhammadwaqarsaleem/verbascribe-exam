@@ -1,0 +1,32 @@
+{
+  "synthetic_demo_data": false,
+  "n_words": 441,
+  "n_errors": 38,
+  "n_utterances": 40,
+  "reference_words_dropped_by_asr": 0,
+  "auc": 0.8845,
+  "tau_youden": 0.93,
+  "tau_safety_first": 0.91,
+  "min_sensitivity_target": 0.8,
+  "tau_youden_bootstrap_95ci": [
+    0.834,
+    0.931
+  ],
+  "chosen_tau": 0.93,
+  "chosen_metrics": {
+    "tau": 0.93,
+    "sensitivity": 0.8684,
+    "specificity": 0.804,
+    "youden_J": 0.6724,
+    "words_flagged": 0.254,
+    "extra_listening_time": 0.1088
+  },
+  "current_default_metrics": {
+    "tau": 0.9,
+    "sensitivity": 0.7895,
+    "specificity": 0.8536,
+    "youden_J": 0.6431,
+    "words_flagged": 0.2018,
+    "extra_listening_time": 0.0865
+  }
+}

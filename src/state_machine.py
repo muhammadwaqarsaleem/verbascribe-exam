@@ -120,7 +120,7 @@ def _to_sentences(words: List[Word]) -> List[List[Word]]:
 class AnswerStateMachine:
     def __init__(
         self,
-        tau: float = 0.90,
+        tau: float = 0.93,
         normal_wpm: int = 200,
         slow_wpm: int = 140,
         min_intent_conf: float = 0.60,
